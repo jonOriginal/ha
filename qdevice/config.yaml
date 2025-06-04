@@ -10,8 +10,6 @@ ports:
   5406/udp: "5406"
 schema:
   password: str
-environment:
-  ROOT_PASSWORD: changeMe! 
 map:
   - type: data
     path: /etc/corosync
