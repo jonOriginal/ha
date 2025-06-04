@@ -2,7 +2,18 @@ name: "qdevice"
 description: "Qdevice Quorum"
 version: "1.0.0"
 slug: "hello_world"
+environment:
 init: false
+ports:
+  2222: 22
+  5404: 5404
+  5405: 5405
+  5406: 5406
+environment:
+  ROOT_PASSWORD: changeMe!    # Set the root user password. If not set, the default password is 'qdevice'
+map:
+  - type: data
+    path: /etc/corosync
 arch:
   - aarch64
   - amd64
