@@ -8,8 +8,10 @@ ports:
   5404/udp: "5404"
   5405/udp: "5405"
   5406/udp: "5406"
+schema:
+  password: str
 environment:
-  ROOT_PASSWORD: changeMe!    # Set the root user password. If not set, the default password is 'qdevice'
+  ROOT_PASSWORD: changeMe! 
 map:
   - type: data
     path: /etc/corosync
