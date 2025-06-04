@@ -20,4 +20,4 @@ arch:
   - armhf
   - armv7
   - i386
-image: patdelapampa/pve-qdevice:latest
+image: "docker.io/patdelapampa/pve-qdevice:latest"
