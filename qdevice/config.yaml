@@ -20,4 +20,4 @@ arch:
   - armhf
   - armv7
   - i386
-image: Dockerfile
+image: ghcr.io/jonOriginal/ha/{arch}
