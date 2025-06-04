@@ -20,4 +20,4 @@ arch:
   - armhf
   - armv7
   - i386
-image: ghcr.io/patdelapampa/pve-qdevice
+image: ghcr.io/modelrockettier/corosync-qnetd
