@@ -1,6 +1,5 @@
 name: "qdevice"
 description: "Qdevice Quorum"
-version: "1.0.0"
 slug: "hello_world"
 environment:
 init: false
