@@ -1,7 +1,4 @@
-LABEL \
-  io.hass.version="2025" \
-  io.hass.type="addon" \
-  io.hass.arch="armhf|aarch64|i386|amd64"
+
 FROM debian:bookworm-slim
 RUN echo 'debconf debconf/frontend select teletype' | debconf-set-selections
 RUN apt-get update
