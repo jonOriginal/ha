@@ -20,4 +20,4 @@ arch:
   - armhf
   - armv7
   - i386
-image: ghcr.io/jonOriginal/ha/{arch}
+image: ghcr.io/patdelapampa/pve-qdevice
