@@ -20,4 +20,5 @@ arch:
   - armhf
   - armv7
   - i386
-image: "patdelapampa/pve-qdevice/latest"
+image: "patdelapampa/pve-qdevice"
+version: "latest"
