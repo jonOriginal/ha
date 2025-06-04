@@ -20,4 +20,4 @@ arch:
   - armhf
   - armv7
   - i386
-image: ghcr.io/modelrockettier/corosync-qnetd
+image: modelrockettier/corosync-qnetd
